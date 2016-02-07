@@ -1,7 +1,10 @@
 {
   "env": {
     "cjs": {
-      "plugins": ["transform-es2015-template-literals"]
+      "plugins": [
+        "transform-es2015-block-scoping",
+        "transform-es2015-template-literals"
+      ]
     },
     "test": {
       "plugins": ["transform-es2015-modules-commonjs"]
